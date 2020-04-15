@@ -1,10 +1,16 @@
 #include"../include/validateInput.h"
 
+#include"../include/checkTemperature.h"
+
+#include"../include/startHeating.h"
+
 #include<stdio.h>
 
 #include<stdlib.h>
 
 /* Main function for calling all other functions */
+
+int achieved = 0;
 
 int
 main ()
@@ -59,6 +65,25 @@ main ()
 	}
     }
   while (1);
+  if (initializationState == 2)
+    {
+      if (checkTemperature (desiredTemp, roomTemp) == 1)
+	{
+	  printf ("we have achieved your desired temperature");
+	}
+      else
+	{
+	  if (desiredTemp > roomTemp)
+	    {
+	      startHeating (desiredTemp, roomTemp);
+	    }
+
+	  if (achieved == 1)
+	    {
+	      printf ("\nWe have achieved your desired temperature");
+	    }
+	}
+    }
 
   return 0;
 }

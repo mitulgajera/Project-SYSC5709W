@@ -1,4 +1,4 @@
-/** @file add.h
+/** @file validateInput.h
  *  @brief Function prototypes for validating Input
  *
  *  
