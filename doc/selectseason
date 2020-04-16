@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-int
-main ()
+int main ()
 {
   int season_num, destemp, meatemp;
   printf ("Enter season_num: ");
