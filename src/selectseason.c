@@ -7,35 +7,21 @@
 #include<math.h>
 int main()
 {
-    int a, b;
-    char ans;
-    int dtem = 30;
-    while (1) {
-        printf("enter the number");
-        scanf("%d", &a);
-        if (a >= 16 && a <= 35)
-        {
-            printf("%d measured temp", a);
-            if (a == dtem)
-            {
-                printf("do u want change in temp");
-                scanf("%c", &ans);
-                if (ans == 'y')
-                {
-                    printf("enter the desired temp");
-                    scanf("%d", &b);
-                    dtem = b;
-                }
-                else(ans == 'n'); {
-                    break;
-                }
-            }
-            else {
-                continue;
-            }
-        }
-        else
-        {
-            continue;
-        }
-    }
+int season_num,destemp,meatemp;
+printf("Enter season_num: ");
+scanf("%d",&season_num);
+switch(season_num)
+{
+    case 1:
+    printf("Summer\n");
+	       break;
+	case 2:
+	printf("winter\n");
+	       break;
+printf("Enter the destemp: ");
+scanf("%d",&destemp);
+printf("Enter the meatemp: ");
+scanf("%d", &roomtemp);
+return 0;
+}
+}
