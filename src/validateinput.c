@@ -2,6 +2,10 @@
 
 int main()
 {
+     /**
+   * Validate Input temperature.
+   * [input] Input temperature
+  */
 int a;
 while(1){
 printf("enter the number");
