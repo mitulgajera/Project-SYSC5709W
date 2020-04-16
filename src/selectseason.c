@@ -7,7 +7,7 @@
 #include<math.h>
 int main()
 {
-int season_num,destemp,meatemp;
+int season_num,destemp,roomtemp;
 printf("Enter season_num: ");
 scanf("%d",&season_num);
 switch(season_num)
