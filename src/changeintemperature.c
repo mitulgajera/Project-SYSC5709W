@@ -11,18 +11,19 @@ int a,b;
 char ans;
 int dtem= 30;
 while(1){
-printf("enter the number:");
+printf("Please enter the roomtemp:");
 scanf("%d",&a);
 if(a>=16 && a<=35){
 printf("%d is roomtemp\n", a);
 if(a==dtem)
 /** One cycle is completed**/
 {
-printf("do u want change in temp:");
+
+printf("Do you want change in temp: Enter \n 'y' for Yes \n 'n' for No\n");
 scanf("%s", &ans);
 if(ans =='y')
 {
-    printf("enter the desired temp:");
+    printf("Please enter the desired temp:");
     scanf("%d",&b);
     dtem=b;
     /*** Validating input ***/
@@ -31,12 +32,12 @@ if(ans =='y')
 if(dtem>=16 && dtem<=35)
 {
 printf("%d is desired temp\n",dtem);
-printf("the desiredtemp is changed"); /*** Change in temperature***/
+printf("The desiredtemp is changed"); /*** Change in temperature***/
 break;
 }
 else
     {
-        printf("enter the desiredtemp again:");
+        printf("Please enter the desiredtemp again:");
         scanf("%d",&dtem);
     }
     }
