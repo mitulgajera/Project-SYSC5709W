@@ -1,8 +1,12 @@
+#include"../include/selectseason.h"
+
 #include"../include/validateInput.h"
 
 #include"../include/checkTemperature.h"
 
 #include"../include/startHeating.h"
+
+#include"../include/changeintemperature.h"
 
 #include<stdio.h>
 
