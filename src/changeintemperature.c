@@ -14,7 +14,7 @@ while(1){
 printf("enter the number:");
 scanf("%d",&a);
 if(a>=16 && a<=35){
-printf("%d is measured temp\n", a);
+printf("%d is roomtemp\n", a);
 if(a==dtem)
 /** One cycle is completed**/
 {
