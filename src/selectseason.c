@@ -9,7 +9,7 @@ int main()
 {
 int destemp,roomtemp;
 char season;
-printf("Enter season: ");
+printf("Please select season:Enter \n 's' for Summer\n 'w' for Winter");
 scanf("%s",&season);
 switch(season) /*** selecting season ***/ 
 {
@@ -21,9 +21,10 @@ switch(season) /*** selecting season ***/
 	       break;
 }
 /*** Giving desiredtemp and roomtemp ***/ 
-printf("Enter the destemp: ");
+printf(" Please enter temperatures between 16 and 32 degrees\n");
+printf("Please enter the destemp: ");
 scanf("%d",&destemp);
-printf("Enter the roomtemp: ");
+printf("Please enter the roomtemp: ");
 scanf("%d", &roomtemp);
 return 0;
 }
