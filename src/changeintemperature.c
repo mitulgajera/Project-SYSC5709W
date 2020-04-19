@@ -1,3 +1,8 @@
+/**
+ * @file changetemperature.c
+ *        
+ *
+ */
 #include <stdio.h>
 #include<conio.h>
 int main()
@@ -11,6 +16,7 @@ scanf("%d",&a);
 if(a>=16 && a<=35){
 printf("%d is measured temp\n", a);
 if(a==dtem)
+/** One cycle is completed**/
 {
 printf("do u want change in temp:");
 scanf("%s", &ans);
@@ -19,11 +25,13 @@ if(ans =='y')
     printf("enter the desired temp:");
     scanf("%d",&b);
     dtem=b;
-    while(1){
-if(dtem>=16 && dtem<=35){
+    /*** Validating input ***/
+    while(1)
+    {
+if(dtem>=16 && dtem<=35)
+{
 printf("%d is desired temp\n",dtem);
-printf("the desiredtemp is changed")
-;
+printf("the desiredtemp is changed"); /*** Change in temperature***/
 break;
 }
 else
@@ -34,7 +42,8 @@ else
     }
 
 }
-else(ans=='n');{
+else(ans=='n');
+    {
     break;
 }
 }
