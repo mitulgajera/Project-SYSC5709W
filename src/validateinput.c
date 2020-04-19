@@ -13,7 +13,7 @@ int main()
   */
 int dtemp;
 while(1){
-printf("enter the number");
+printf(" Please enter the desiredtemp: ");
 scanf("%d",&dtemp);
 if(dtemp>=16 && dtemp<=35){
 printf("%d desired temp", dtemp);
