@@ -11,7 +11,7 @@ int destemp,roomtemp;
 char season;
 printf("Enter season: ");
 scanf("%s",&season);
-switch(season)
+switch(season) /*** selecting season ***/ 
 {
     case 's':
     printf("Summer\n");
@@ -20,6 +20,7 @@ switch(season)
     printf("winter\n");
 	       break;
 }
+/*** Giving desiredtemp and roomtemp ***/ 
 printf("Enter the destemp: ");
 scanf("%d",&destemp);
 printf("Enter the roomtemp: ");
