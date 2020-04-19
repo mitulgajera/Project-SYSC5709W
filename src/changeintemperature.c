@@ -16,7 +16,7 @@ scanf("%d",&a);
 if(a>=16 && a<=35){
 printf("%d is roomtemp\n", a);
 if(a==dtem)
-/** Cycle is completed**/
+/** Cycle is completed that is dtemp=roomtemp**/
 {
 
 printf("Do you want change in temp: Enter \n 'y' for Yes \n 'n' for No\n");
