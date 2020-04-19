@@ -11,12 +11,12 @@ int main()
    * Validate Input temperature.
    * [input] Input temperature
   */
-int a;
+int dtemp;
 while(1){
 printf("enter the number");
-scanf("%d",&a);
-if(a>=16 && a<=35){
-printf("%d desired temp", a);
+scanf("%d",&dtemp);
+if(dtemp>=16 && dtemp<=35){
+printf("%d desired temp", dtemp);
 break;
 }
 else
