@@ -30,5 +30,6 @@ File and Folder Structure Organization
 •	Sanjana Reddy Sureddy
 •	Mitulkumar Gajera
  	
-5.	Professor Christina Martin Ruiz for all her support and guidance.
+5.Acknowledgement
+• Professor Christina Martin Ruiz for all her support and guidance.
 
