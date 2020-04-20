@@ -7,7 +7,7 @@
 #include<conio.h>
 int main()
 {
-int destemp,roomtemp;
+int destemp,roomtemp;     /*** dtemp=Desired Temperature,roomtemp=Room Temperature ***/
 char season;
 printf("Please select season:Enter \n 's' for Summer\n 'w' for Winter");
 scanf("%s",&season);
