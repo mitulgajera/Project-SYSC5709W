@@ -7,7 +7,7 @@
 #include<conio.h>
 int main()
 {
-int dtemp,roomtemp;
+int dtemp,roomtemp;  /**** dtemp=Desired Temperature, roomtemp=Room Temperatur ****/
 char ans;
 int dtemp= 30;
 while(1){
