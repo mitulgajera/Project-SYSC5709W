@@ -4,7 +4,7 @@ Automation makes human life easy and with the minimal effort’s human can do th
 
 File and Folder Structure Organization
 
-1.	doc: This folder has documentation files of the project.
+  1.	doc: This folder has documentation files of the project.
 
 •	Assignment 2.docx
 
@@ -16,7 +16,7 @@ File and Folder Structure Organization
 
 •	GroupH_Home temperature controller system_update.pdf
  	
-2.	include: This folder has the all the header files used in the project.
+  2.	include: This folder has the all the header files used in the project.
 
 •	changeintemperature.h
 
@@ -30,7 +30,7 @@ File and Folder Structure Organization
 
 •	validateInput.h
  	
-3.	src: This folder contains the source code for the message and top model.
+  3.	src: This folder contains the source code for the message and top model.
 
 •	changeintemperature.c
 
@@ -46,13 +46,13 @@ File and Folder Structure Organization
 
 •	validateinput.c
  	
-4.	Authors
+  4.	Authors
 
 •	Sanjana Reddy Sureddy
 
 •	Mitulkumar Gajera
  	
-5.Acknowledgement
+  5.Acknowledgement
 
 • Professor Christina Martin Ruiz for all her support and guidance.
 
