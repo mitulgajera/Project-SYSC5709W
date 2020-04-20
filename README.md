@@ -4,6 +4,7 @@ Automation makes human life easy and with the minimal effort’s human can do th
 File and Folder Structure Organization
 1.	doc: This folder has documentation files of the project.
 •	Assignment 2.docx
+
 •	Assignment.docx
 •	Flowchart_updated_1.jpj
 •	GroupH_Home temperature controller system.docx
