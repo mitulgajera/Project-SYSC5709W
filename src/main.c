@@ -61,7 +61,7 @@ main ()
 
 	  if (validateInput (desiredTemp) == 1)
 	    {
-	      initializationState = 1;
+	      initializationState = 2;
 	      break;
 	    }
 	  else
@@ -71,6 +71,7 @@ main ()
 	}
     }
   while (1);
+
   if (initializationState == 2)
     {
       if (checkTemperature (desiredTemp, roomTemp) == 1)
