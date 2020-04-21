@@ -6,6 +6,8 @@
 
 #include"../include/startHeating.h"
 
+#include"../include/startCooling.h"
+
 #include"../include/changeintemperature.h"
 
 #include<stdio.h>
@@ -80,6 +82,10 @@ main ()
 	  if (desiredTemp > roomTemp)
 	    {
 	      startHeating (desiredTemp, roomTemp);
+	    }
+	  else
+	    {
+	      startCooling (desiredTemp, roomTemp);
 	    }
 
 	  if (achieved == 1)

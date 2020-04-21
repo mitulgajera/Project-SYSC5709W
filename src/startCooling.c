@@ -1,6 +1,6 @@
 
 /**
- * @file startHeating.c
+ * @file startCooling.c
  *        
  *
  */
@@ -15,13 +15,13 @@
 
 
    /**
-   * Start Heating the room to achieve desired temperature.
+   * Start Cooling the room to achieve desired temperature.
    * [dt] Desired temperature
    * [rt] Room temperature
   */
 
 void
-startHeating (int dt, int rt)
+startCooling (int dt, int rt)
 {
   int randomNumber;
   do
@@ -30,13 +30,12 @@ startHeating (int dt, int rt)
       do
 	{
 	  randomNumber = rand () % 4;
-	  if ((rt + randomNumber) <= dt)
+	  if ((rt - randomNumber) <= dt)
 	    {
 	      break;
 	    }
 	}
       while (1);
-      rt = rt + randomNumber;
       printf ("\nNew room temperature is %d", rt);
       if (checkTemperature (dt, rt) == 1)
 	{
