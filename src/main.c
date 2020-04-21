@@ -28,7 +28,7 @@ main ()
   printf ("Inorder to start the simulation we need few inputs from your end");
 
   printf
-    ("Please select weather condition: enter \n1 for Winter\n2 for Summer")
+    ("Please select weather condition: enter \n1 for Winter\n2 for Summer");
     scanf ("%d", &selectedSeason);
 
 
