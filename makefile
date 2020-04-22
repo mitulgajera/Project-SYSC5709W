@@ -18,7 +18,7 @@ main.o: src/main.c
 selectseason.o: src/selectseason.c
 	$(CC) -g -c $(MCMODEL) src/selectseason.c -o build/selectseason.o
 
-validateinput.o: src/validateinput.c
+validateinput.o: src/validateInput.c
 	$(CC) -g -c $(MCMODEL) src/validateinput.c -o build/validateinput.o
 
 checkTemperature.o: src/checkTemperature.c
