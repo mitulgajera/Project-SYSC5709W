@@ -6,9 +6,9 @@ File and Folder Structure Organization
 
 1.	doc: This folder has documentation files of the project.
 
-  •	Assignment 2.docx
+  •	Assignment 2.pdf
 
-  •	Assignment.docx
+  •	Assignment.pdf
 
   •	Flowchart_updated_1.jpj
 
