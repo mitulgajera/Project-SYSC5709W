@@ -1,0 +1,6 @@
+#ifndef HEATINGSYSTEM_H_INCLUDED
+#define HEATINGSYSTEM_H_INCLUDED
+
+void heatingSystem()
+
+#endif // HEATINGSYSTEM_H_INCLUDED
