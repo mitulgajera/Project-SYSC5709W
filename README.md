@@ -5,7 +5,7 @@
 
 ## **File and Folder Structure Organization**
 
-### 1.	doc:This folder has documentation files of the project.
+### 1.	doc: This folder has documentation files of the project.
 
   -	Assignment 2.pdf
 
@@ -59,6 +59,6 @@
  	
 ### 5. Acknowledgement
 
-  • Professor Christina Martin Ruiz for all her support and guidance.
+  - Professor Christina Martin Ruiz for all her support and guidance.
 
 
