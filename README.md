@@ -49,7 +49,7 @@
 
   - startHeating.c
   
-  -startCooling.c
+  - startCooling.c
 
   -	validateinput.c
   ------------------
