@@ -1,4 +1,4 @@
-Home Temperature Controller System
+#Home Temperature Controller System
  	
   Automation makes human life easy and with the minimal effort’s human can do their work. In smart homes maintaining home/room     temperature according to need plays an important role for inhabitants. A home temperature control system maintains room temperature in all seasons. The temperatures can be changed by the user as per the requirements.
 
