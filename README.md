@@ -20,38 +20,44 @@
  	
 ### 2.	include: This folder has the all the header files used in the project.
 
-  -	changeintemperature.h
-
   -	checkTemperature.h
 
-  -	selectseason.h
+  -	heatingSystem.h
+
+  -	needHeatOrCold.h
+
+  -	printNewTempMsg.h
+  
+  - printTaskDoneMsg.h
 
   -	startCooling.h
-  
-  - delay.h
 
   -	startHeating.h
-
-  -	validateInput.h
+  
+  -	tempChangeWaitDelay.h
+  
+  - validateIntegerInput.h
   ---------------------
  	
 ### 3.	src: This folder contains the source code for the message and top model.
 
-  -	changeintemperature.c
-
   -	checkTemperature.c
 
-  -	delay.c
+  -	heatingSystem.c
 
-  -	main.c
+  -	needHeatOrCold.c
 
-  -	selectseason.c
-
-  - startHeating.c
+  -	printNewTempMsg.c
   
-  - startCooling.c
+  - printTaskDoneMsg.c
 
-  -	validateinput.c
+  -	startCooling.c
+
+  -	startHeating.c
+  
+  -	tempChangeWaitDelay.c
+  
+  - validateIntegerInput.c
   ------------------
  	
 ### 4.	Authors
