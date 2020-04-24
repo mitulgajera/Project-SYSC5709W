@@ -11,7 +11,7 @@
 
   -	Assignment.pdf
 
-  -Flowchart_updated_1.jpj
+  - Flowchart_updated_1.jpj
 
   -	GroupH_Home temperature controller system.docx
 
