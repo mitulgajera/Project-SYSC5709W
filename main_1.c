@@ -15,7 +15,7 @@
 #include"startCooling.h"
 #include"startHeating.h"
 #include"tempChangeWaitDelay.h"
-#include"validateIntegerInput.h"
+#include"validateintegerInput.h"
 
 int main()
 {
