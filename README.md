@@ -26,7 +26,9 @@
 
   -	selectseason.h
 
-  -	startHeating-Copy.h
+  -	startCooling.h
+  
+  - delay.h
 
   -	startHeating.h
 
@@ -46,6 +48,8 @@
   -	selectseason.c
 
   - startHeating.c
+  
+  -startCooling.c
 
   -	validateinput.c
   ------------------
