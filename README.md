@@ -10,12 +10,16 @@
   -	Assignment 2.pdf
 
   -	Assignment.pdf
+ 
+  - Developer Manual.pdf
 
   - Flowchart_updated_1.jpj
 
   -	GroupH_Home temperature controller system.docx
 
   -	GroupH_Home temperature controller system_update.pdf
+  
+  - User Manual.pdf
   -------------------
 ### 2.	exe: This folder has executable file of the project.
 
@@ -43,7 +47,7 @@
   - validateIntegerInput.h
   ---------------------
  	
-### 3.	src: This folder contains the source code for the message and top model.
+### 4.	src: This folder contains the source code for the message and top model.
 
   -	checkTemperature.c
 
@@ -64,14 +68,14 @@
   - validateIntegerInput.c
   ------------------
  	
-### 4.	Authors
+### 5.	Authors
 
   -	Sanjana Reddy Sureddy
 
   -	Mitulkumar Gajera
   --------------------
  	
-### 5. Acknowledgement
+### 6. Acknowledgement
 
   - Professor Christina Martin Ruiz for all her support and guidance.
 
