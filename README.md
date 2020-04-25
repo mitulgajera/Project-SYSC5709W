@@ -61,5 +61,5 @@
  	
 ### 5. Acknowledgement
 
-  - Professor Christina Martin Ruiz for all her support and guidance.
+  - Professor Cristina Ruiz Martin for all her support and guidance.
 
