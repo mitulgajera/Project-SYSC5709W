@@ -2,6 +2,7 @@
 #include"tempChangeWaitDelay.h"
 #include"checkTemperature.h"
 #include"printTaskDoneMsg.h"
+#include"printNewTempMsg.h"
 #include<stdio.h>
 #include<conio.h>
 
