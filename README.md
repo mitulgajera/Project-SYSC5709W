@@ -17,8 +17,12 @@
 
   -	GroupH_Home temperature controller system_update.pdf
   -------------------
- 	
-### 2.	include: This folder has the all the header files used in the project.
+### 2.	exe: This folder has executable file of the project.
+
+- main_1.exe
+
+
+### 3.	include: This folder has the all the header files used in the project.
 
   -	checkTemperature.h
 
