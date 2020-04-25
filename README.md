@@ -1,3 +1,6 @@
+# CARLETON UNIVERSITY
+-------------------------------
+
 # Home Temperature Controller System
 ------------
  	
