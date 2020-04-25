@@ -4,7 +4,9 @@
 # Home Temperature Controller System
 ------------
  	
-  Automation makes human life easy and with the minimal effort’s human can do their work. In smart homes maintaining home/room     temperature according to need plays an important role for inhabitants. A home temperature control system maintains room temperature in all seasons. The temperatures can be changed by the user as per the requirements.
+   Automation makes human life easy and with the minimal efforts human can do their work. In smart homes maintaining home/room temperature according to need plays an important role for inhabitants. A home temperature control system maintains room temperature in all seasons. The temperatures can be changed by the user as per the requirements.
+   When the system turns on, the system will ask user to select the season either winter or summer. Then user will input the measured room temperature and desired room temperature. Here, for sack of simplicity we are giving manual entry to input measured room temperature usually it is automatically measure by the sensors. Once user enters inputs, input validation function will check the validation. When measured room temperature does not match with desired room temperature, according to selected season, system will turn on respected mode. After one cycle that is desired room temperature equals measured room temperature, program will again ask user if he/she wants further to change in temperature. If yes, then program will redirect to user input prompt, if no, then program will stop execution until further user input.
+
 
 ## **File and Folder Structure Organization**
 
