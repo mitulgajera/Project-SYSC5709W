@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-#include"validateintegerInput.h"
+#include"validateIntegerInput.h"
 
 int validateIntegerInput(int minPossible, int maxPossible)
 {
